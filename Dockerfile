@@ -27,3 +27,6 @@ RUN yum install -y glib2-devel
 
 # needed by qserv (java is required by antlr)
 RUN yum install -y swig java-1.7.0-openjdk
+
+# nice to haves...
+RUN yum install -y iostat
