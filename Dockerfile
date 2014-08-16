@@ -29,4 +29,4 @@ RUN yum install -y glib2-devel
 RUN yum install -y swig java-1.7.0-openjdk
 
 # nice to haves...
-RUN yum install -y iostat
+RUN yum install -y sysstat
